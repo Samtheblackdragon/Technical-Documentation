@@ -5,3 +5,101 @@ html {
 * , *::after, *::before {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+}
+
+
+#navbar {
+    height: 100vh;
+    min-width: 290px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav-logo {
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-links {
+    font-size: 1.2rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    display: block;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    left: 320px;
+    top: 20px;
+}
+
+.main-section {
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.main-section header{
+    font-size: 1.8rem;
+}
+
+.main-section p{
+    padding-left: 20px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.main-section article {
+    margin: 16px 0;
+    padding-left: 20px;
+}
+
+.main-section code {
+    white-space: pre-line;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    word-wrap: normal;
+    overflow-x: auto;
+}
+
+@media (max-width: 900px){
+    #navbar {
+        position: relative;
+        height: 40vh;
+        width: 95%;
+        background-color: white;
+        border-right: 0px solid rgba(0, 0, 0, 0.5);
+    }
+    .nav-links {
+        margin: 20px;
+    }
+    #main-doc {
+        position: relative;
+        left: 0;
+        top: 5rem;
+    }
+}
