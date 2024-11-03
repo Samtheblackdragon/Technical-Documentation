@@ -25,6 +25,7 @@ Once the website is running, you can explore the different sections:
 ## Contact
 For any questions or feedback, please reach out via:
 
-Email: berasumanraj@gmail.com
-GitHub: Samtheblackdragon
+- Email: berasumanraj@gmail.com
+- GitHub: Samtheblackdragon
+  
 Thank you for visiting the JavaScript Documentation Website!
